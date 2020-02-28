@@ -327,6 +327,10 @@ blockquote {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .hero-left {
@@ -619,8 +623,9 @@ blockquote {
 }
 
 .hero-slider {
-  width: 100%;
+  width: 80%;
   height: 100%;
+  background-color: transparent;
 }
 
 .product {
@@ -629,8 +634,11 @@ blockquote {
 }
 
 .slide-image {
-  width: 100%;
   height: 100%;
+}
+
+.slide {
+  text-align: center;
 }
 
 @media screen and (max-width: 991px) {
