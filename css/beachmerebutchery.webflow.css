@@ -756,6 +756,11 @@ blockquote {
 }
 
 @media screen and (max-width: 767px) {
+  .menu-button {
+    padding: 2vh;
+    font-size: 2vh;
+    line-height: 2vh;
+  }
   .menu-button.w--open {
     background-color: #914614;
   }
