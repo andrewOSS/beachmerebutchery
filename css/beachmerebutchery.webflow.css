@@ -280,6 +280,7 @@ blockquote {
   display: flex;
   height: 60vh;
   padding: 5vh 10vw;
+  overflow: hidden;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
